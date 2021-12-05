@@ -1,0 +1,138 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+i {
+  font-size: 40px;
+  color: white;
+}
+
+main {
+  background: url(../img/gameboy-5822636_960_720.webp) center no-repeat;
+  background-size: 66%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+main .start {
+  align-items: center;
+  margin: 10vh 0 0 0vw;
+  background-color: #333333;
+  position: absolute;
+  color: #333333;
+  font-size: 25px;
+  height: 30vh;
+  width: 22vw;
+  border-radius: 5px;
+}
+main .start p:nth-of-type(1) {
+  text-align: center;
+  margin: 6vh 0 0 0vw;
+  color: #484747;
+}
+main .start p:nth-of-type(2) {
+  text-align: center;
+  margin: 1vh 0 0 0vw;
+}
+main .end {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh 0 0 0vw;
+  background-color: #333333;
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  height: 30vh;
+  width: 22vw;
+  border-radius: 5px;
+  z-index: -1;
+}
+main section:nth-of-type(1) {
+  margin: 7vh 0 0 0vw;
+  height: 35vh;
+  width: 22vw;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+}
+main section:nth-of-type(1) article {
+  margin: 3vh 0 0 0;
+}
+main section:nth-of-type(1) article .roundZähler {
+  margin: 0 0 0 1vw;
+}
+main section:nth-of-type(1) article .punkteStand {
+  margin: 6vh 3px;
+}
+main section:nth-of-type(1) article article {
+  display: flex;
+  margin: 6vh -23px;
+}
+main section:nth-of-type(1) article article div {
+  margin: 0 5vw 0 5vw;
+}
+main section:nth-of-type(2) {
+  position: relative;
+}
+main section:nth-of-type(2) div:nth-of-type(1) {
+  color: #333333;
+  position: absolute;
+  right: 35px;
+  bottom: 202px;
+}
+main section:nth-of-type(2) div:nth-of-type(1) i {
+  color: #333333;
+}
+main section:nth-of-type(2) div:nth-of-type(2) {
+  position: absolute;
+  right: 32px;
+  bottom: 301px;
+}
+main section:nth-of-type(2) div:nth-of-type(2) i {
+  color: #333333;
+}
+main section:nth-of-type(2) div:nth-of-type(3) {
+  position: absolute;
+  right: -18px;
+  bottom: 251px;
+}
+main section:nth-of-type(2) div:nth-of-type(3) i {
+  color: #333333;
+}
+main section:nth-of-type(3) {
+  border-radius: 10px;
+  position: absolute;
+  right: 50.5vw;
+  bottom: 9vh;
+  color: white;
+  background-color: #333333;
+  opacity: 0;
+  padding: 3px;
+}
+main nav {
+  position: absolute;
+  bottom: 10.5vh;
+  left: 49.7vw;
+}
+main nav a {
+  text-decoration: none;
+  font-size: 38px;
+  color: #333333;
+}
+main .startGame {
+  background-color: #333333;
+  border: none;
+  border-radius: 5px;
+  height: 2vh;
+  width: 3.5vw;
+  position: absolute;
+  bottom: 19vh;
+  left: 51vw;
+}
+
+/*# sourceMappingURL=main.css.map */

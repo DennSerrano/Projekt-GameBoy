@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+i{
+    font-size:40px;
+    color:white;
+}
+main{
+    background: url(../img/gameboy-5822636_960_720.webp) center no-repeat;
+    background-size: 66%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    .start{
+        align-items: center;
+        margin: 10vh 0 0 0vw ;
+        background-color: #333333;
+        position: absolute;
+        color: #333333;
+            font-size:25px;
+        height: 30vh;
+            width: 22vw;
+            border-radius:5px ;
+            p:nth-of-type(1){
+                text-align: center;
+                margin:6vh 0 0 0vw;
+                color:rgb(72, 71, 71);
+            }
+            p:nth-of-type(2){
+                text-align: center;
+                margin:1vh 0 0 0vw;
+            }
+    }
+    .end{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            margin: 10vh 0 0 0vw ;
+            background-color: #333333;
+            position: absolute;
+            color:white;
+            font-size:25px;
+            height: 30vh;
+            width: 22vw;
+            border-radius:5px ;
+            z-index: -1;
+    }
+    section:nth-of-type(1){
+        //background-color: aqua;
+            margin: 7vh 0 0 0vw ;
+            height: 35vh;
+            width: 22vw;
+            color:white;
+            font-size:25px;
+            border-radius:5px ;
+        article{
+            margin:3vh 0 0  0;
+            .roundZähler{
+                margin: 0 0 0 1vw;
+            }
+            .punkteStand{
+                margin: 6vh 3px;
+            }
+            article{
+                display: flex;
+                margin: 6vh -23px;
+                div{
+                    margin:0 5vw 0 5vw;
+                }
+            }
+        }
+    }
+    section:nth-of-type(2){
+position: relative;
+div:nth-of-type(1){
+    color:#333333;
+position: absolute;
+right: 35px;
+    bottom: 202px;
+    i{
+        color:#333333;  
+    }
+}
+div:nth-of-type(2){
+    position: absolute;
+    right: 32px;
+    bottom: 301px;
+    i{
+        color:#333333;  
+    }
+}
+div:nth-of-type(3){
+    position: absolute;
+    right: -18px;
+    bottom: 251px;
+    i{
+        color:#333333;  
+    }
+}
+    }
+    section:nth-of-type(3){
+        border-radius: 10px;
+        position:absolute ;
+        right: 50.5vw;
+        bottom: 9vh;
+        color:white;
+        background-color:#333333;
+        opacity: 0;
+        padding:3px;
+    }
+    nav{
+    position: absolute;
+    bottom: 10.5vh;
+    left:49.7vw;
+    a{
+        text-decoration: none;
+        font-size:38px;
+        color:#333333;
+    }
+}
+.startGame{
+    background-color:#333333 ;
+    border:none;
+    border-radius:5px;
+    height:2vh;
+    width:3.5vw;
+    position: absolute;
+    bottom: 19vh;
+    left:51vw;
+}
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Center</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <main>
+        <!-- SECTION 1 -->
+        <!-- Div for End Display -->
+        <div id="endNone" class="end">
+        </div>
+        <!-- Div for Start Display -->
+        <div id="startNone" class="start">
+            <p id="colorStart">Press Start</p>
+            <p> Choose Rounds!! <br>
+                Press Select!!!!</p>
+        </div>
+        <section>
+            <article>
+                <!-- Round-Counter -->
+                <div class="roundZähler">
+                    <p>Rounds:</p>
+                    <div id="result"></div>
+                    <div id="runden">/0</div>
+                </div>
+                <!-- Score -->
+                <article class="punkteStand">
+                    <div id="inputZahl1">0</div>
+                    <p>:</p>
+                    <div id="inputZahl2">0</div>
+                </article>
+                <!-- Icons on Display -->
+                <article>
+                    <div id="inputUser"></div>
+                    <p>:</p>
+                    <div id="inputKi"></div>
+                </article>
+            </article>
+        </section>
+        <!-- SECTION 2 Icons for Butoon-->
+        <section>
+            <div id="userPaper">
+                <i class="far fa-hand-paper" id="userPaper"></i>
+            </div>
+            <div id="userRock">
+                <i class="far fa-hand-rock" id="userRock"></i>
+            </div>
+            <div id="userSissors">
+                <i class="far fa-hand-scissors" id="userSissors"></i>
+            </div>
+        </section>
+        <!-- SECTION 3 with Drop-Down Menu -->
+        <section id="dropMenu" onclick="roundMenu()">
+            <div>
+                <form action="dopDown">
+                    <div>
+                        <label for="rounds">Rounds?</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rounds" id="round3" onclick="closeMenu()">
+                        <label for="num">3</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rounds" id="round5" onclick="closeMenu()">
+                        <label for="num">5</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rounds" id="round10" onclick="closeMenu()">
+                        <label for="num">10</label>
+                    </div>
+                    <input type="radio" name="rounds" id="round15" onclick="closeMenu()">
+                    <label for="num">15</label>
+                </form>
+            </div>
+        </section>
+        <!-- Button for Start the Game -->
+        <button class="startGame" onclick="startGame()"></button>
+        <!-- Click to Resart -->
+        <nav><a href="">a</a></nav>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
